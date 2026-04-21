@@ -6,6 +6,8 @@ const hours = document.getElementById("hours");
 
 export function hoursLoad({ date }) {
   const opening = openingHours.map((hour) => {
+    hours.innerHTML = "";
+
     const [scheduleHour] = hour.split(":");
 
     const isHourPast = dayjs(date).add(scheduleHour, "hour").isAfter(dayjs());
