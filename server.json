@@ -1,3 +1,9 @@
 {
-  "schedules": []
+  "schedules": [
+    {
+      "id": 1776797422052,
+      "name": "Samuel Soares",
+      "when": "2026-04-21T19:00:00.000Z"
+    }
+  ]
 }
